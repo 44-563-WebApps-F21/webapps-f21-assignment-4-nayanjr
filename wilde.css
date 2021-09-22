@@ -69,3 +69,15 @@
         color:cyan;
     }
     
+    #content {
+        position: relative;
+    }
+    #content img {
+        position: absolute;
+        top: 165px;
+        right: 35px;
+        height: 400px;
+        width: 200px;
+    }
+    
+    
