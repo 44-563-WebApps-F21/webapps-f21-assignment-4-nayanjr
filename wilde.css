@@ -1,0 +1,71 @@
+.speech{
+    color:black;
+    font-size: 17px;
+    font-family: Times New Roman;
+}
+.stage_direction{
+    color:black;
+    font-family: Times New Roman;
+    background-color: lightcoral;
+}
+.stage_direction:hover{
+    color:seagreen;
+    background-color: chartreuse;
+}
+.name{
+    color:black;
+    font-size: 17px;
+    font-family: Times new roman;
+}
+.GERALD{
+    color:green;
+}
+.ILLINGWORTH{
+    color:yellow;
+}
+
+    table{
+        border: 1px solid black;
+        padding:45px 30px 50px;
+        margin: 25px 50px 80px 100px;
+        width:50px;
+    }
+    th{
+        color:black;
+        border:1px solid black;
+        text-align: center;
+        background-color:blue;
+    }
+    td{
+        color:blue;
+        border:1px solid black;
+        text-align:left;
+    }
+    tr:nth-child(even){
+        background-color:chocolate;
+    }
+    .name:hover{
+        text-shadow: 2px 3px  4px red2;
+        filter: blur(1px);
+        border:solid 3px rgb(198, 192, 255)
+    }
+    ul.navbar-horizantal{
+        list-style-type:none;
+        margin:0;
+        padding:0;
+    }
+    ul.navbar-horizantal li{
+        float:left;
+        color:bluevoilet;
+        background-color: crimson;
+    }
+    ul.navbar-horizantal a{
+        display:block;
+        padding:10px;
+        color:yellow;
+    }
+    ul.navbar-horizantal a.hover{
+        background-color:green;
+        color:cyan;
+    }
+    
