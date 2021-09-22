@@ -74,10 +74,21 @@
     }
     #content img {
         position: absolute;
-        top: 165px;
+        top: 750px;
         right: 35px;
         height: 400px;
         width: 200px;
+    }
+
+    .ignore:before{
+        content: '';
+        background:url('ignore.jpg');
+        background-size:cover;
+        position:absolute;
+        background-color: skyblue;
+        width:30px;
+        height:20px;
+        margin-left:-10px;
     }
     
     
